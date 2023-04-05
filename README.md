@@ -3,7 +3,7 @@
 This algorithm uses a UNet model to identify IPS cells from raw images, and then calculates corresponding mechanical coordinates for subsequent experiments.
 
 ### Folder Structure:
-- data: Contains raw data  
+- data: Contains raw data. sample data can be downloaded from https://drive.google.com/drive/folders/1AyVUeIwdVDdfKOLvTKrbAahflSVLTjpw?usp=sharing
 - lib: Contains function interface files  
 - model: Contains model structure files  
 - result: Contains result files (can be deleted)
