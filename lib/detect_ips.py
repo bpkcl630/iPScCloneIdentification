@@ -119,14 +119,18 @@ class Detector_Ips:
         timer = time.time()
         list_pred = []
         # 识别
-        model = model.eval().cuda()
+        model = model.eval()
+        if torch.cuda.is_available():
+            model.cuda()
         per = 10
         with torch.no_grad():
             for i in range(times):
                 if i == times - 1 and residue is not None:
-                    batch = torch.stack(tensors[-residue:]).cuda()
+                    batch = torch.stack(tensors[-residue:])
                 else:
-                    batch = torch.stack(tensors[i * batch_size:(i + 1) * batch_size]).cuda()
+                    batch = torch.stack(tensors[i * batch_size:(i + 1) * batch_size])
+                if torch.cuda.is_available():
+                    batch = batch.cuda()
                 preds = model(batch)
                 preds = preds.cpu()
                 value, index = torch.max(preds, 1)

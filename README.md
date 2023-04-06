@@ -2,7 +2,23 @@
 
 This algorithm uses a UNet model to identify IPS cells from raw images, and then calculates corresponding mechanical coordinates for subsequent experiments.
 
-### Folder Structure:
+## System Requirements
+This program is supported for windows and Linux. The program has been tested on the following systems:
+
+Windows10  
+Linux: Ubuntu 16.04
+
+### Hardware requirements
+Due to the implementation of deep learning algorithms, it is recommended to configure GPU devices, particularly NVIDIA graphics cards, and install the corresponding CUDA software. The use of CPU processing is not advisable due to its slow speed.
+
+### Software requirements
+Required software packages include:  
+torch (note: please install the version of torch that is compatible with the CUDA version installed on the system. For installation details, please refer to the PyTorch official guide)  
+numpy  
+opencv-python  
+pytest (used for testing)
+
+## Folder Structure:
 - data: Contains raw data. sample data can be downloaded from https://drive.google.com/drive/folders/1AyVUeIwdVDdfKOLvTKrbAahflSVLTjpw?usp=sharing
 - lib: Contains function interface files  
 - model: Contains model structure files  
