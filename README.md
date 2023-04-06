@@ -12,7 +12,8 @@ Linux: Ubuntu 16.04 and above
 Due to the implementation of deep learning algorithms, it is recommended to configure GPU devices, particularly NVIDIA graphics cards, and install the corresponding CUDA software. The use of CPU processing is not advisable due to its slow speed.
 
 ### Software requirements
-Required software packages include:  
+Required python >= 3.7
+Required python packages include:  
 torch (note: please install the version of torch that is compatible with the CUDA version installed on the system. For installation details, please refer to the PyTorch official guide)  
 numpy  
 opencv-python  
