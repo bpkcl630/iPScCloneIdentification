@@ -18,6 +18,14 @@ numpy
 opencv-python  
 pytest (used for testing)
 
+## Installation and Run
+``` sh
+
+git clone https://github.com/bpkcl630/iPScCloneIdentification
+cd iPScCloneIdentification
+python3 main.py
+```
+
 ## Folder Structure:
 - data: Contains raw data. sample data can be downloaded from https://drive.google.com/drive/folders/1AyVUeIwdVDdfKOLvTKrbAahflSVLTjpw?usp=sharing
 - lib: Contains function interface files  
