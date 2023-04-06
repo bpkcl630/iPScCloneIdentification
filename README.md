@@ -1,6 +1,6 @@
-# iPSc Recognition Algorithm
+# iPSc Recognition
 
-This algorithm uses a UNet model to identify IPS cells from raw images, and then calculates corresponding mechanical coordinates for subsequent experiments.
+This demo uses a UNet model to identify IPS cells from raw images, and then calculates corresponding mechanical coordinates for subsequent experiments.
 
 ## System Requirements
 This program is supported for windows and Linux. The program has been tested on the following systems:
