@@ -13,6 +13,7 @@ Due to the implementation of deep learning algorithms, it is recommended to conf
 
 ### Software requirements
 Required python >= 3.7
+
 Required python packages include:  
 torch (note: please install the version of torch that is compatible with the CUDA version installed on the system. For installation details, please refer to the PyTorch official guide)  
 numpy  
