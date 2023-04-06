@@ -6,7 +6,7 @@ This algorithm uses a UNet model to identify IPS cells from raw images, and then
 This program is supported for windows and Linux. The program has been tested on the following systems:
 
 Windows10  
-Linux: Ubuntu 16.04
+Linux: Ubuntu 16.04 and above
 
 ### Hardware requirements
 Due to the implementation of deep learning algorithms, it is recommended to configure GPU devices, particularly NVIDIA graphics cards, and install the corresponding CUDA software. The use of CPU processing is not advisable due to its slow speed.
